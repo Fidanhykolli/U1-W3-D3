@@ -1,0 +1,78 @@
+body{
+    margin-left:  35%;
+    margin-right:  35%;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+#firstDiv{
+    text-align: center;
+    height: 100%;
+    border: 1px solid black;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+
+.completed{
+    text-decoration: line-through;
+}
+
+
+.paragrafi{
+    text-align: left;
+    padding-left: 10%;
+    /* padding-right: 20%; */
+    font-size: 35px;
+}
+
+
+.toDoTask{
+padding-top: 10px;
+}
+
+
+.toDoTask button{
+    padding: 8px;
+    width: 15%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 3%;
+    background-color: rgb(92, 92, 181);
+    color: whitesmoke;
+    border: none;
+}
+
+
+.toDoTask input {
+    width: 30%;
+    height: 25px;
+    font-size: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.paragrafi button {
+    width: 100px;
+   margin-left: 150px;
+}
+
+
+#theTasks button{
+    background-color: rgb(26, 150, 150);
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 20%;
+}
+
+#theTasks p {
+word-break: break-word;
+
+}
